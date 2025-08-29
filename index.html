@@ -11,6 +11,17 @@
     <title>My Portfolio</title> 
     <link rel="stylesheet" href="style.css"> 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        new Typed("#typed", {
+          strings: ["developer", "designer", "creator", "thinker"],
+          typeSpeed: 100,
+          backSpeed: 50,
+          loop: true
+        });
+    </script>
+
+    
 </head> 
 
 <body> 
@@ -63,7 +74,7 @@
                 <h3 class="greet-heading">Hello, I'm</h3> 
                 <h1 class="my-heading">Emrit Diyal</h1> 
                 <h4 class="sub-heading"> 
-                    A Software Engineer with 3 years of Experience. 
+                    A <span id="typed"></span> 
                 </h4> 
             </div> 
             <div class="intro-buttons"> 
@@ -474,6 +485,7 @@
 
 
 </html>
+
 
 
 
